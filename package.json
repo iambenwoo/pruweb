@@ -1,5 +1,5 @@
 {
-  "name": "myhealthweb",
+  "name": "pruweb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,8 @@
     "bootstrap": "^4.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-intl": "^4.6.9",
+    "react-minimal-pie-chart": "^8.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"
@@ -17,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract-messages": "set NODE_ENV=production&& babel ./src >NUL"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-plugin-react-intl": "^7.5.20"
   }
 }
