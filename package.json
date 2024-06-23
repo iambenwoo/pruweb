@@ -12,7 +12,7 @@
     "react-intl": "^4.6.9",
     "react-minimal-pie-chart": "^8.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "reactstrap": "^8.4.1"
   },
   "scripts": {
@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
+    "@babel/cli": "^7.24.7",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
